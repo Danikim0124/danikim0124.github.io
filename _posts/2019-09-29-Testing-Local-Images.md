@@ -45,20 +45,23 @@ The entrance and exit traffic for top 10 stations were accounting for about 20% 
 
 
 Figure 1. Station vs. Percentage of traffic for top 10 stations.
-
-
 ![Image test]({{ site.url }}/images/Top10_stations.png)
 
 #### Day and Time
 
 A Figure 2 shows percentrage of traffic vs. day of week. As expected, this graph clearly shows that working days, from Monday to Friday, have the most traffic. Thus, placing street steams on the working days is desirable.
 
-Figure 2.
+Figure 2. Percentage of traffic vs. day of week for top 10 stations
+![Image test]({{ site.url }}/images/Traffic_day.png)
+
 
 A Figure 3 shows percentage of traffic vs. time of day. The most traffic occurs between 4:00 and 8:00 pm, thus placing street teams in this time period would be practical. If you really have to outreach on weekend, the same time period will be applied, as shown in Figure 4.
 
-Figure 3.
-Figure 4.
+Figure 3. Percentage of traffic vs. time of day for top stations
+![Image test]({{ site.url }}/images/Traffic_hour.png)
+Figure 4. Percentage of traffic vs. weekend for top 10 stations
+![Image test]({{ site.url }}/images/Traffic_weekend.png)
+
 
 ## Street Team Strategy
 
