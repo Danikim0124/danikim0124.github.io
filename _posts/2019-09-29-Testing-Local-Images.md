@@ -41,7 +41,7 @@ Here, our team collected total of six datasets from first two weeks in October f
 
 #### Places
 
-The entrance and exit traffic for top 10 stations were accounting for about 20% of total traffic. A Figure 1 shows list of top 10 stations with their percentage of traffic among top 10 stations. For example, Penn Station, located on 34th street, is about 15%(~ 11 millitons) of top 10 traffics.
+The entrance and exit traffic for top 10 stations were accounting for about 20% of total traffic. A Figure 1 shows list of top 10 stations with their percentage of traffic among top 10 stations. For example, Penn Station, located on 34th street, is about 15%(~ 11 millions) of top 10 traffics.
 
 
 Figure 1. Station vs. Percentage of traffic for top 10 stations.
