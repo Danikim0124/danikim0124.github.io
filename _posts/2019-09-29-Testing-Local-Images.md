@@ -9,20 +9,30 @@ WomenTechWomenYes(WTWY) has an annual gala at the beginning of Fall each year. O
 In this project, our team in Metis provided a strategy to place street teams at entrances to subway stations to gather the most people to meet their needs.
 
 
-## Data Acquisition and preprocessing
+## Data Acquisition and Preprocessing
 
 The MTA subway data was acquired from [Turnstile data sets](http://web.mta.info/developers/turnstile.html). Each data consists of turnstile information with entrance and exit counts, which was counted every four hours. Here are more detailed information in MTA datasets.
 
 -C/A = Control Area
+
 -UNIT = Remote Unit for a station
+
 -SCP= Subunit Channel Position (an specific address for a device)
+
 -STATION= Station name
+
 -LINENAME= Train lines that can be boarded at this station
+
 -DIVISION= Line originally the station belonged to BMT, IRT, or IND   
+
 -DATE= Represents the date (MM-DD-YY)
+
 -TIME= Represents the time (hh:mm:ss) 
--DESc= Represent "REGULAR" scheduled audit event (Normally occurs every 4 hours) or "RECOVR AUD" (a missed audit that was recovered) 
+
+-DESc= Represent "REGULAR" scheduled audit event (Normally occurs every 4 hours) or "RECOVR AUD" (a missed audit that was recovered)
+
 -ENTRIES= The comulative entry register value for a device
+
 -The EXIST= The cumulative exit register value for a device
 
 Here, our team collected total of six datasets from first two weeks in October from 2016-2018. Then, data cleaning and analysis was done with Pandas and Seaborn.
@@ -39,7 +49,7 @@ Figure 1. Station vs. Percentage of traffic for top 10 stations.
 
 ![Image test]({{ site.url }}/images/Top10_stations.png)
 
-### Day and Time
+#### Day and Time
 
 A Figure 2 shows percentrage of traffic vs. day of week. As expected, this graph clearly shows that working days, from Monday to Friday, have the most traffic. Thus, placing street steams on the working days is desirable.
 
